@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -12,11 +13,14 @@
   },
   "author": "Hernan",
   "license": "ISC",
-  "bugs": {
+    "bugs": {
     "url": "https://github.com/HernanGarcia1985/Proyecto-Integrador-Grupo7/issues"
   },
   "homepage": "https://github.com/HernanGarcia1985/Proyecto-Integrador-Grupo7#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
+  "engines": {
+      "node": "8.9.3"
+    }
 }
